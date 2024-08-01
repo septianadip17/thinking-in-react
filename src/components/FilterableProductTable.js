@@ -1,15 +1,5 @@
 import ProductTable from "./ProductTable";
-
-function SearchBar() {
-  return (
-    <form>
-      <input type="text" placeholder="Search..." />
-      <label>
-        <input type="checkbox" /> Only show products in stock
-      </label>
-    </form>
-  );
-}
+import SearchBar from "./SearchBar";
 
 export default function FilterableProductTable({ products }) {
   return (
