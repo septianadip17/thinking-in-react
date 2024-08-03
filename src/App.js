@@ -6,7 +6,6 @@
 //   return <FilterableProductTable products={PRODUCTS} />;
 // }
 
-
 // contoh props
 import { getImageUrl } from "./components/props/Utils"
 
